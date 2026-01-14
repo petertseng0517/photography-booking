@@ -21,7 +21,7 @@
 
 ### 線上訪問
 
-🌐 **直接開啟：** https://photography-booking-5d7b5.web.app
+🌐 **直接開啟：** 暫時不公開
 
 ### 本地開發
 
