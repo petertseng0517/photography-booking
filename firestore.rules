@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /registrations/{document=**} {
+      allow read: if true;
+      allow create: if request.resource.data.size() == 6;
+      allow update, delete: if false;
+    }
+  }
+}

@@ -147,7 +147,7 @@ const StatsModal = ({ registrations, onClose }: { registrations: Registration[],
                   <th className="border border-gray-300 p-3 text-left font-bold">時段</th>
                   {days.map(day => (
                     <th key={day} className="border border-gray-300 p-3 text-center font-bold">
-                      {day} ({day === '2025-01-22' ? 'Wed' : 'Thu'})
+                      {day}
                     </th>
                   ))}
                 </tr>
@@ -391,7 +391,6 @@ const App: React.FC = () => {
                         : 'border-gray-100 bg-gray-50 text-gray-500 hover:border-gray-200'
                     }`}
                   >
-                    <div className="text-[10px] uppercase tracking-wider mb-1 opacity-70">{d === '2025-01-22' ? 'Wed' : 'Thu'}</div>
                     <div className="text-lg">{d.split('-').slice(1).join('/')}</div>
                   </button>
                 ))}
