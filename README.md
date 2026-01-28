@@ -16,7 +16,7 @@
 | **響應式設計** | 完美支援電腦、平板、手機等各種設備 |
 
 ---
-<img height="300" alt="Image" src="https://github.com/user-attachments/assets/ebff07fa-b83d-4017-ae12-c378fd90a48b" />
+<img height="500" alt="Image" src="https://github.com/user-attachments/assets/ebff07fa-b83d-4017-ae12-c378fd90a48b" />
 
 ## 🚀 快速開始
 
